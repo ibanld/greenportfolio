@@ -14,4 +14,4 @@ __Animated Portfolio__ has been built using [AnimeJs](https://animejs.com/), [Pa
 
 
 ## 📝 License
-__Animated Portfolio__ is under _MIT License_. You can read the full license file [here](./LICENSE.md)
+__Animated Portfolio__ is under _MIT License_. You can read the full license file [here](LICENSE.md)
