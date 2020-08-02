@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css"
+    />
+    <title>Your Name </title>
+  </head>
+  <body>
+    <div id="turn">
+      <div id="girar">
+        <img src="./img/rotate.png" alt="">
+      </div>
+    </div>
+    <div id="contenedor">
+    <!-- MENU NAVEGACION -->
+    <header>
+      <nav class="nav-bar">
+        <img src="./img/logo.png" alt="logo" />
+
+        <ul>
+          <li>
+            <a href="#incio" id="home"><i class="fas fa-home fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#perfil" id="profile"
+              ><i class="fas fa-user-astronaut fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#portfolio" id="projects"
+              ><i class="fas fa-laptop-code fa-2x"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#formacion" id="grad"
+              ><i class="fas fa-graduation-cap fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- PANTALLA DE CARGA -->
+    <div class="pantalla">
+      <img src="./img/logo.png" alt="logo" width="25%">
+    </div>
+    
+    <!-- INICIO -->
+    <section id="inicio">
+      <div class="fondo" id="particles-js">
+        <div class="bienvenida">
+          <h1 id="nombre">Hi, I'm yourname</h1>
+          <span class="replace-me"
+            >one thing you do<span style="display:none"
+              >,another thing,other one</span
+            ></span
+          >
+        </div>
+      </div>
+    </section>
+    <!-- PERFIL -->
+    <section id="perfil">
+      <div class="datos">
+        <div class="tarjeta">
+          <div class="foto"><img src="./img/profile.png" alt=""></div>
+          <div class="detalles">
+          <div class="nombre">
+            <h1 class="names">Your Name</h1>
+            <h3 class="names">Your title</h3>
+            
+            <p> 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fugit!
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur veniam molestiae sapiente impedit quo, doloremque molestias sequi commodi deleniti qui.
+            </p>
+            <p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eaque excepturi aut hic exercitationem ex quasi iusto delectus doloremque, quos ratione sit tenetur voluptatem nulla? Aperiam, magni. Voluptates voluptatibus vel, neque, sit perspiciatis laudantium nihil et debitis minima ea sequi.            </p>
+            <div class="techies">
+              <i class="fab fa-html5 fa-2x" style="color: darkorange"></i> 
+              <i class="fab fa-css3-alt fa-2x" style="color: lightseagreen"></i> 
+              <i class="fab fa-js fa-2x" style="color: yellow"></i> <i class="fab fa-react fa-2x" style="color: blue"></i> 
+              <i class="fab fa-node-js fa-2x" style="color: green"></i> 
+              <i class="fab fa-php fa-2x" style="color: navy"></i> <i class="fas fa-database fa-2x" style="color: grey"></i> 
+              <i class="fab fa-git fa-2x" style="color: red"></i>
+            </div>
+          </div>
+          <div class="techies contacto">
+            <p>
+              <a href="">
+              <i class="fab fa-twitter-square fa-2x" style="color: lightblue"></i></a>
+              <a href=""><i class="fab fa-instagram-square fa-2x" style="color: salmon"></i></a>
+              <a href="">
+              <i class="fab fa-facebook-square fa-2x" style="color: navy"></i></a> 
+              <a href="">
+              <i class="fab fa-linkedin fa-2x" style="color: blue"></i></a>
+              <a href="">
+              <i class="fab fa-github-square fa-2x" style="color: black"></i></a> 
+              <a href="mailto:">
+              <i class="fas fa-envelope-square fa-2x" style="color: rgb(47, 255, 64)"></i></a>
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="grid">
+
+        <div class="cards">
+          <div class="card">
+            <img src="./img/lpsd.png" onmouseenter="this.src ='./img/lspdvid.gif';" onmouseout="this.src = './img/lpsd.png';" alt="LSPD - FiveM" style="width:100%">
+            <div class="container">
+              <h4><b>LSPD</b></h4>
+              <p>Base de datos Policial para FiveM en PHP y Bootstrap</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/lifeinvader.png" onmouseenter="this.src ='./img/lifeinvadervid.gif';" onmouseout="this.src = './img/lifeinvader.png';" alt="lifeinvader" style="width:100%">
+            <div class="container">
+              <h4><b>LifeInvader</b></h4>
+              <p>Red Social para servidor de FiveM en PHP y Bootstrap</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- FORMACION -->
+    <section id="formacion">
+      <div class="academic">
+      <div class="titulos">
+        <button class="accordion">One Bootcamp you attended 
+        <i class="fab fa-html5 fa-lg"></i>
+        <i class="fab fa-css3-alt fa-lg"></i>
+        <i class="fab fa-php fa-lg"></i>
+        <i class="fab fa-js-square fa-lg"></i>
+        <i class="fas fa-database fa-lg"></i>
+        </button>
+        <div class="panel">
+          <p><i class="fas fa-university"></i>
+            <span>Where or by</span>
+            <ul>
+            <li>Stuff you learnt</li>
+            <li>More Stuff you learnt</li>
+          </ul>
+            
+          </p>
+        </div>
+
+        <button class="accordion">Responsive Web Design Certification <i class="fab fa-html5 fa-lg"></i>
+          <i class="fab fa-css3-alt fa-lg"></i></button>
+        <div class="panel">
+          <p><i class="fab fa-free-code-camp fa-lg"></i>
+            <span>Free Code Camp <a href="" target="_blank">View Certificate</a></span>
+            <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>CSS Flexbox</li>
+            <li>CSS Grid</li>
+          </ul>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    </section>
+  </div>
+    <!-- SCRIPTS -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.js"
+      integrity="sha256-X52UxxXhNhqxzN/kkl6XoPC5i/48En56iWi0+NE9k+4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/rotator.min.js"></script>
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
